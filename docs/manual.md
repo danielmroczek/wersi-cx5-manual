@@ -171,7 +171,7 @@ Switch on the device using the **power switch** located on the back of the unit.
 
 ### Selecting and Starting a Rhythm
 
-1. Press any rhythm selection button **15–22** or **27–34**.  
+1. Press any rhythm selection button **15**–**22** or **27**–**34**.  
    - The start check ends.  
    - The selected rhythm button LED and button **6 “F-RH 1”** (Fixed Rhythm Group 1) remain lit.  
    - The LED of **“START/STOP” (35)** blinks.
@@ -191,15 +191,15 @@ The **“START/STOP”** button also blinks at the beginning of each bar (down-b
 
 To change the rhythm while stopped or running:
 
-- Press another rhythm selection button **15–22** or **27–34**.  
+- Press another rhythm selection button **15**–**22** or **27**–**34**.  
 - The new rhythm name appears immediately in the display.
 
 ### Selector
 
 The **“Selector”** button (4) switches between the two fixed rhythm groups:
 
-- Group 1: **F-RH 1** (button 6 inactive as selector)  
-- Group 2: **F-RH 2** (button 6 active)
+- Group 1: **F-RH 1** (button **6** inactive as selector)  
+- Group 2: **F-RH 2** (button **6** active)
 
 Each physical rhythm button then has **two rhythms**:
 
@@ -223,7 +223,7 @@ Use this function whenever you have made an operating error and are unsure how t
 
 The CX 5 provides a stored “ideal tempo” for each rhythm.
 
-- Activate **“Tempomat” (button 9)** → LED lights:  
+- Activate **“Tempomat” (9)** → LED lights:  
   - Every selected rhythm plays at its stored **standard tempo**.  
   - The **“Speed”** slider becomes inactive.
 
@@ -275,7 +275,7 @@ The selected tuning applies globally to all rhythms until changed again.
 
 ### Snare Roll
 
-The **“Snare Roll”** function (button 14) triggers a snare drum roll, even while a rhythm is running.
+The **“Snare Roll”** function (button **14**) triggers a snare drum roll, even while a rhythm is running.
 
 ---
 
@@ -297,7 +297,7 @@ In full configuration, the CX 5 offers **6 sound effects**, organized in two gro
 
 Use **“Effect Sel.” (12)** to switch between the two groups.
 
-(Internally this corresponds to two effect banks; the same buttons 24–26 trigger either group 1 or group 2.)
+(Internally this corresponds to two effect banks; the same buttons **24**–**26** trigger either *group 1* or *group 2*.)
 
 ---
 
@@ -326,9 +326,9 @@ You can play **13 timpani** tuned in semitone steps from the panel:
 1. Press **“2nd Function” (3)** – LED blinks.  
 2. Press **“Timpani” (1)**.  
 
-The LEDs of buttons **15–31** light up and the display shows **“Timpani Mode on”**.
+The LEDs of buttons **15**–**31** light up and the display shows **“Timpani Mode on”**.
 
-- Buttons **15–31** now play timpani notes over an octave.  
+- Buttons **15**–**31** now play timpani notes over an octave.  
 - Press **“2nd Function”** again to exit Timpani mode.
 
 ---
@@ -342,7 +342,11 @@ You can program up to **32 own rhythms** into the free memory locations and late
 - Delete  
 - Save to cassette or cartridge
 
+(You can save the 32 rhythms to cassette or cartridge and read them back in to create your own rhythm archive; see [Cassette Save](#cassette-save) and [Write Cartridge (Wr. Cart.)](#write-cartridge-wr-cart)).
+
 For programming, place the included **control panel mask** on the panel; it shows the alternate programming labels for the buttons.
+
+![WERSI CX-5 Control panel mask](programming.png)
 
 #### Selecting Storage Location
 
@@ -358,34 +362,52 @@ If a rhythm is already stored there, its name appears in the display.
 #### Entering Time Signature
 
 1. Press **“Erase” (4)** – LED lights.  
-   - Buttons **15–22** (upper row) now have numeric values **1–8**.
+   - Buttons **15**–**22** (upper row) now have numeric values **1**–**8**.
 
 2. Define **beats per bar** and **subdivision (steps per beat)**:
 
    - **3/4 time:**  
-     - Press 17 → value 3 (beats)  
-     - Press 18 → value 4 (steps)
+     - Press **17** → value *3* (beats)  
+     - Press **18** → value *4* (steps)
 
    - **4/4 time:**  
-     - Press 18 twice → (4 beats) × (4 steps) = 16 sixteenth notes per bar  
+     - Press **18** twice → (*4* beats) × (*4* steps) = *16* sixteenth notes per bar  
 
    - **6/8 time:**  
-     - Press 20 → value 6 (beats)  
-     - Press 16 → value 2 (subdivision)
+     - Press **20** → value *6* (beats)  
+     - Press **16** → value *2* (subdivision)
 
    - **5/4 time:**  
-     - Press 19 → value 5 (beats)  
-     - Subdivision = triplets (3 steps) as per mask / documentation (e.g. button labeled “3”)
+     - Press **19** → value *5* (beats)  
+     - Subdivision = triplets (*3* steps) as per mask / documentation (e.g. button labeled **3** on *control panel mask*)
+
+> **Note:** To enter a 4/4 time signature, press **18** twice (enter two 4s):
+> the **first 4** sets the number of beats per bar, the **second 4** sets the subdivision (steps per beat).
+>
+> Applied to 4/4, each quarter note is divided into 4 sixteenth notes — **4 × 4 = 16** sixteenth notes per bar.
 
 Conceptually:
 
 - **Beats × Steps = total grid steps per bar**
 
-Examples:
+Applied to our example of **4/4** time, each quarter note is divided into four sixteenth notes — **4 × 4 = 16** sixteenth notes per bar.
 
-- 4/4: 4 × 4 = 16 sixteenth notes  
-- 6/8: 6 × 2 = 12 sixteenth notes  
-- 5/4: 5 × 3 = 15 triplet steps (e.g. swing feel like “Take Five”)
+### Examples
+
+- **4/4 — Entering 4/4**
+   - Press **18** twice (enter two 4s): the **first 4** sets beats per bar, the **second 4** sets subdivision (steps per beat).
+   - Result: **4 × 4 = 16** sixteenth notes per bar.
+   ![4/4 Rhythm Grid](4x4.png)
+
+- **6/8 — Entering 6/8**
+   - Press **20** → value **6** (beats).
+   - Press **16** → value **2** (subdivision / steps per beat).
+   - Result: **6 × 2 = 12** sixteenth notes per bar.
+
+- **5/4 — Entering 5/4 (Take Five feel)**
+   - Press **19** → value **5** (beats).
+   - Use subdivision **3** (triplet steps) to get the swing feel (press the panel mask button labeled **3**).
+   - Result: **5 × 3 = 15** triplet steps per bar.
 
 When finished, the display shows the new time signature and **“Erase”** (4) is no longer lit.
 
@@ -437,7 +459,7 @@ After placing instruments, you can program volume levels per instrument:
 2. Press **“I. Gr. 1” (12)** to edit levels for group 1 instruments:  
    - Use **upper** instrument button to increase level  
    - Use **lower** button (same position) to decrease level  
-   - Levels are from **1–7** (shown in display)  
+   - Levels are from **1**–**7** (shown in display)  
    - The last selected level is stored.
 
 3. Press **“I. Gr. 2”** to program group 2 levels.  
@@ -483,8 +505,8 @@ The display shows: `EDIT`.
 
 The keypad now acts like a typewriter. According to the panel mask:
 
-- Buttons **1–22**: letters A–Z (distributed across buttons)  
-- Buttons **28–33**: numbers 1–6  
+- Buttons **1**–**22**: letters *A*–*Z* (distributed across buttons)  
+- Buttons **28**–**33**: numbers *1*–*6*  
 - Button **34**: space  
 - Button **23**: delete/backspace
 
@@ -524,7 +546,7 @@ Now:
 
 To clear the current sequence while programming:
 
-- Press the button documented as **“clear sequence”** (often button 12 in panel legend); display returns to `Bar 0`.
+- Press the button documented as **“clear sequence”** (often button **12** in panel legend); display returns to `Bar 0`.
 
 **Ending sequence recording:**
 
@@ -602,10 +624,10 @@ You can copy rhythms between memory locations.
 
 #### Within Programmable Rhythms
 
-1. Call up the **source** user rhythm (15–22 or 27–34, with/without Selector).  
+1. Call up the **source** user rhythm (**15**–**22** or **27**–**34**, with/without Selector).  
 2. Press **“Program” (1)** once.  
    - Display shows `Copy/Prg Rhythm`.  
-3. Select the **destination** memory location (again via 15–22, 27–34, with/without Selector).
+3. Select the **destination** memory location (again via **15**–**22**, **27**–**34**, with/without Selector).
 
 The rhythm is now present in **both** locations. You can edit the copy independently.
 
@@ -675,7 +697,7 @@ If the “1” does not appear:
 
 - Press **“Pad on”** again and then button **15** to select preset 1.
 
-In pad mode, the LEDs of buttons **27–34** operate as a **VU meter** for the currently played pad instrument.
+In pad mode, the LEDs of buttons **27**–**34** operate as a **VU meter** for the currently played pad instrument.
 
 **Important:**  
 Immediately after first activation of pad mode, pad tunings are random.  
@@ -711,7 +733,7 @@ This does **not** occur in **Special Pad Mode**:
 
 - While in pad mode, press **“2nd Funct.” (3)** to toggle **Special Pad Mode**.  
 - In Special Pad Mode, the CX 5 is a **pure pad machine**; playing pads along with an internal rhythm is disabled in favor of highest possible response speed.  
-- Pad presets are selected directly by rhythm buttons 1–8.
+- Pad presets are selected directly by rhythm buttons **1**–**8**.
 
 Exit Special Pad Mode by pressing **“Pad on”**.
 
@@ -731,8 +753,8 @@ Procedure:
 1. Press **“Pad/Midi” (2)** – LED blinks → Pad/MIDI Program Mode.  
 2. Press **“Effect Sel.” (12)** → Pad Assignment Mode.  
    - Display shows: `Which Preset ???` (or similar).  
-3. Buttons **15–22** now select presets 1–8.  
-   - Example: Press **16** to select preset 2.  
+3. Buttons **15**–**22** now select presets *1*–*8*.  
+   - Example: Press **16** to select preset *2*.  
 4. The display now shows: `Pad 1` and the currently assigned instrument.
 
 Use **“START/STOP” (35)** and **“Intro/Break” (23)** to scroll through all **63 pad-capable instruments**:
@@ -741,7 +763,7 @@ Use **“START/STOP” (35)** and **“Intro/Break” (23)** to scroll through a
 - Short taps: step one instrument at a time.
 
 5. Choose the desired instrument for **Pad 1** (leave it in the display).  
-6. Use buttons **15–22** (now pad selectors 1–8) to move through pads and assign instruments to each.  
+6. Use buttons **15**–**22** (now pad selectors 1–8) to move through pads and assign instruments to each.  
 7. When all pads are assigned, press **“Pad/Midi” (2)** again – LED off to exit.
 
 **Instrument groups (mutual exclusion within a preset)**  
@@ -759,12 +781,12 @@ Within a single pad preset, the following groups cannot sound simultaneously at 
 ### Selecting Pad Preset
 
 1. Press **“Pad on” (11)**.  
-   - Display shows the current preset number next to “P”.  
+   - Display shows the current preset number next to *“P”*.  
 
 2. To change presets:  
    - Press **“Pad on”** again – LED blinks.  
-   - Press desired preset number **1–8** via buttons 15–22.  
-   - Selected number appears next to “P”.
+   - Press desired preset number **1**–**8** via buttons **15**–**22**.  
+   - Selected number appears next to *“P”*.
 
 ### Programming Pitch Preset
 
@@ -907,7 +929,7 @@ The sync signal from tape now automatically starts and controls the CX 5 in exac
 
 **Checking Software Version (full configuration):**
 
-1. Press and hold any rhythm selection button **15–21**.  
+1. Press and hold any rhythm selection button **15**–**21**.  
 2. Briefly press the **Reset** switch.  
 3. The display shows the **3-digit software version and release date**.  
 4. Release the rhythm button – CX 5 returns to start check state.
@@ -1097,7 +1119,7 @@ Now the CX 5 can simultaneously:
 2. Press **“Program” (1)** repeatedly until `MIDI RX CHAN` appears with a channel number.  
    - Use buttons **15–22, 27–34** to select the desired **receive channel (1–16)**.  
 3. Press **“Program” (1)** again until `MIDI TX CHAN` appears.  
-   - Again use buttons 15–22, 27–34 to select the **transmit channel (1–16)**.  
+   - Again use buttons **15**–**22**, **27**–**34** to select the **transmit channel (1–16)**.  
 4. Press **“Pad/Midi”** – LED off to store settings.
 
 #### Example Setup
@@ -1181,7 +1203,7 @@ Format (from original):
 Mapping:
 
 - Codes **0–15** → select rhythms 1–16 (upper row)  
-- Codes **16–31** → also activate **Selector**, then treated as codes 0–15: result = rhythms 17–32
+- Codes **16**–**31** → also activate **Selector**, then treated as codes 0–15: result = rhythms *17*–*32*
 
 ---
 
@@ -1240,7 +1262,7 @@ If you use the CX 5 as a drum machine **without pads**, you can connect a **doub
 3. **Special Pad Mode (extended):**  
    - Press **“2nd Function”** in Pad Mode to enter **Special Pad Mode**.  
    - CX 5 functions as a **pure pad machine**; internal rhythm playback is disabled to maximize pad response speed.  
-   - Pad presets are selected simply by pressing rhythm buttons **1–8**.  
+   - Pad presets are selected simply by pressing rhythm buttons **1**–**8**.  
    - Exit with **“Pad On”**.
 
 ---
