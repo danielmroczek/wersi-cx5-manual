@@ -403,6 +403,7 @@ Applied to our example of **4/4** time, each quarter note is divided into four s
    - Press **20** → value **6** (beats).
    - Press **16** → value **2** (subdivision / steps per beat).
    - Result: **6 × 2 = 12** sixteenth notes per bar.
+   ![6/8 Rhythm Grid](6x8.png)
 
 - **5/4 — Entering 5/4 (Take Five feel)**
    - Press **19** → value **5** (beats).
