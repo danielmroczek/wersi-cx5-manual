@@ -23,10 +23,55 @@
         filter: invert(1) hue-rotate(180deg);
         background: transparent;
       }
+
+      /* Mermaid diagram fixes */
+      .mermaid {
+        text-align: center;
+        margin: 1em 0;
+      }
+      .mermaid .nodeLabel {
+        color: inherit !important;
+      }
     </style>
   </head>
   <body>
     <div id="app"></div>
+    <!-- Mermaid v10 -->
+    <script src="//cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script>
+      function getMermaidTheme() {
+        var savedTheme = localStorage.getItem('DARK_LIGHT_THEME');
+        if (savedTheme === 'dark') return 'dark';
+        if (savedTheme === 'light') return 'default';
+
+        var style = document.documentElement.getAttribute('style') || '';
+        var colorScheme = getComputedStyle(document.documentElement).getPropertyValue('color-scheme').trim();
+        if (colorScheme === 'dark' || style.indexOf('color-scheme: dark') !== -1 || style.indexOf('--defaultTheme: dark') !== -1) {
+          return 'dark';
+        }
+        return 'default';
+      }
+
+      function renderMermaidBlock(source, target) {
+        var id = 'mermaid-' + Math.random().toString(36).substr(2, 9);
+        mermaid.initialize({ startOnLoad: false, theme: getMermaidTheme() });
+        return mermaid.render(id, source).then(function (result) {
+          target.innerHTML = result.svg || result;
+          target.dataset.mermaidSource = source;
+        });
+      }
+
+      function refreshMermaidDiagrams() {
+        var diagrams = document.querySelectorAll('.mermaid');
+        diagrams.forEach(function (el) {
+          var source = el.dataset.mermaidSource || el.textContent.trim();
+          if (!source) return;
+          renderMermaidBlock(source, el);
+        });
+      }
+
+      mermaid.initialize({ startOnLoad: false, theme: getMermaidTheme() });
+    </script>
     <script>
       window.$docsify = {
         name: "WERSI Drum Composer CX5",
@@ -35,6 +80,41 @@
         maxLevel: 3,
         search: 'auto', 
         logo: '/logo.png',
+        plugins: [
+          function mermaidPlugin(hook) {
+            hook.doneEach(function () {
+              mermaid.initialize({ startOnLoad: false, theme: getMermaidTheme() });
+
+              var codeBlocks = document.querySelectorAll('pre[data-lang="mermaid"], code.lang-mermaid');
+              codeBlocks.forEach(function (codeEl) {
+                var pre = codeEl.tagName === 'PRE' ? codeEl : codeEl.parentElement;
+                if (!pre || pre.dataset.mermaidRendered) return;
+                pre.dataset.mermaidRendered = 'true';
+
+                var source = codeEl.textContent.trim();
+                var div = document.createElement('div');
+                div.className = 'mermaid';
+                div.dataset.mermaidSource = source;
+                renderMermaidBlock(source, div).then(function () {
+                  pre.replaceWith(div);
+                }).catch(function (err) {
+                  pre.innerHTML = '<pre style="color:red">' + err.message + '</pre>';
+                });
+              });
+            });
+
+            hook.ready(function () {
+              var observer = new MutationObserver(function () {
+                var sameTheme = getComputedStyle(document.documentElement).getPropertyValue('color-scheme').trim();
+                var savedTheme = localStorage.getItem('DARK_LIGHT_THEME');
+                if ((sameTheme === 'dark' || savedTheme === 'dark') || (sameTheme === 'light' || savedTheme === 'light')) {
+                  refreshMermaidDiagrams();
+                }
+              });
+              observer.observe(document.documentElement, { attributes: true, attributeFilter: ['style'] });
+            });
+          },
+        ],
       };
     </script>
     <!-- Docsify v4 -->

@@ -959,13 +959,11 @@ Use standard MIDI/audio DIN cables, max. length approx. 15 m.
 
 You can connect two CX 5 units, or the CX 5 and another MIDI-compatible drum machine, using the **MIDI clock**.
 
-Example connection (CX 5 as both devices):
+Example connection:
 
-```text
-Device A (CX 5)           Device B (CX 5)
----------                 ----------------
-MIDI OUT   ───────────→   MIDI IN
-(Clock Sender)           (Clock Receiver)
+```mermaid
+flowchart LR
+    A["<b>Device A</b>\nMIDI OUT\n<em>Clock Sender</em>"] -->|"MIDI Clock"| B["<b>Device B</b>\nMIDI IN\n<em>Clock Receiver</em>"]
 ```
 
 #### Device A – CX 5 as MIDI Clock Sender
