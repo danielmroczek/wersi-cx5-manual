@@ -77,6 +77,7 @@ The manual covers:
 - **Synchronization** – Tape sync and MIDI integration
 - **MIDI Reference** – Complete MIDI implementation guide
 - **Button Reference** – Interactive cheatsheet for all 35 control panel buttons
+- **Rhythm List Appendix** – All 64 factory rhythms (RH 1 / RH 2) with selection buttons and a fill-in column for the stored default tempo
 
 ## Features
 

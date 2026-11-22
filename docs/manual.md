@@ -1280,6 +1280,8 @@ Button numbers run from **top left (1)** to **bottom right (35)**.
 > – whether **“2nd Function”** is active  
 > See the linked chapters for detailed instructions.
 
+> For the full list of factory rhythms with their selection buttons and a column for the stored tempo, see [Appendix Rhythm List and Default Tempos](#appendix-rhythm-list-and-default-tempos).
+
 ---
 
 ### Top Row (Buttons 1–11)
@@ -1335,6 +1337,103 @@ Button numbers run from **top left (1)** to **bottom right (35)**.
 | 33  | SWING / FOXTROT                     | Selects rhythm **Swing** (Group 1) or **Foxtrot** (Group 2); numeric key **15** | - [Selecting and Starting a Rhythm](#selecting-and-starting-a-rhythm) |
 | 34  | WALTZ / JAZZ WALTZ                  | Selects rhythm **Waltz** (Group 1) or **Jazz Waltz** (Group 2); numeric key **16** | - [Selecting and Starting a Rhythm](#selecting-and-starting-a-rhythm) |
 | 35  | START/STOP                          | - **Master transport**: starts/stops rhythms and sequences<br>- In many modes: confirms/ends operations (e.g. exits name edit) | - [Selecting and Starting a Rhythm](#selecting-and-starting-a-rhythm)<br>- [Programming Sequences](#programming-sequences)<br>- [Editing Rhythm Names](#editing-rhythm-names)<br>- [Sync to Tape / Sync from Tape](#sync-to-tape--sync-from-tape) |
+
+---
+
+## Appendix Rhythm List and Default Tempos
+
+Complete list of the **64 factory rhythms**: each of the 32 printed rhythm names exists in two versions — **RH 1** (Fixed Rhythm Group 1, button **5**) and **RH 2** (Fixed Rhythm Group 2, button **6**). That gives **4 rhythms per rhythm button** (2 printed names × 2 versions).
+
+> **How to call up an entry:** press the rhythm button listed in *Button*, then select the version with **F-RH 1 (5)** or **F-RH 2 (6)**. The name appears on the display. The *SELECTOR* column tells you whether **SELECTOR (4)** must be lit: **Off** = not lit (upper printed name), **On** = lit (lower printed name).
+>
+> **Default tempo:** "Tempomat" (button **9**) recalls the stored ideal tempo for each rhythm. Play each rhythm with Tempomat on and read the BPM value from the display, then write it into the empty *Default tempo* cell. This builds a quick reference of the factory tempo for every rhythm.
+
+| # | Rhythm | Button | Version | SELECTOR (4) | Default tempo (BPM) |
+|---|--------|--------|---------|--------------|---------------------|
+| 1 | Disco 1 | `15` DISCO 1/DISCO 2 | RH 1 | Off | 110 |
+| 2 | Disco 1 | `15` DISCO 1/DISCO 2 | RH 2 | Off | 140 |
+| 3 | Disco 2 | `15` DISCO 1/DISCO 2 | RH 1 | On | 110 |
+| 4 | Disco 2 | `15` DISCO 1/DISCO 2 | RH 2 | On | 140 |
+| 5 | Disco 3 | `16` DISCO 3/L-DISCO | RH 1 | Off | 109 |
+| 6 | Disco 3 | `16` DISCO 3/L-DISCO | RH 2 | Off | 126 |
+| 7 | L-Disco | `16` DISCO 3/L-DISCO | RH 1 | On | 110 |
+| 8 | Disco 4 | `16` DISCO 3/L-DISCO | RH 2 | On | 126 |
+| 9 | Beat | `17` BEAT/FUNK | RH 1 | Off | 120 |
+| 10 | Beat 1 | `17` BEAT/FUNK | RH 2 | Off | 117 |
+| 11 | Funk | `17` BEAT/FUNK | RH 1 | On | 110 |
+| 12 | Beat 2 | `17` BEAT/FUNK | RH 2 | On | 117 |
+| 13 | Rock 1 | `18` ROCK 1/ROCK 2 | RH 1 | Off | 110 |
+| 14 | Funk 1 | `18` ROCK 1/ROCK 2 | RH 2 | Off | 104 |
+| 15 | Rock 2 | `18` ROCK 1/ROCK 2 | RH 1 | On | 110 |
+| 16 | Disco Samba | `18` ROCK 1/ROCK 2 | RH 2 | On | 120 |
+| 17 | Reggae 1 | `19` REGGAE 1/REGGAE 2 | RH 1 | Off | 90 |
+| 18 | Disco Reggae | `19` REGGAE 1/REGGAE 2 | RH 2 | Off | 174 |
+| 19 | Reggae 2 | `19` REGGAE 1/REGGAE 2 | RH 1 | On | 90 |
+| 20 | Disco Funk | `19` REGGAE 1/REGGAE 2 | RH 2 | On | 143 |
+| 21 | Twist 1 | `20` TWIST 1/TWIST 2 | RH 1 | Off | 106 |
+| 22 | Twist 1 | `20` TWIST 1/TWIST 2 | RH 2 | Off | 175 |
+| 23 | Twist 2 | `20` TWIST 1/TWIST 2 | RH 1 | On | 106 |
+| 24 | Twist 2 | `20` TWIST 1/TWIST 2 | RH 2 | On | 175 |
+| 25 | Tango | `21` TANGO/6-8 MARCH | RH 1 | Off | 122 |
+| 26 | Tango | `21` TANGO/6-8 MARCH | RH 2 | Off | 125 |
+| 27 | 6/8 March | `21` TANGO/6-8 MARCH | RH 1 | On | 133 |
+| 28 | German March | `21` TANGO/6-8 MARCH | RH 2 | On | 130 |
+| 29 | March 1 | `22` MARCH 1/MARCH 2 | RH 1 | Off | 118 |
+| 30 | Polka | `22` MARCH 1/MARCH 2 | RH 2 | Off | 122 |
+| 31 | March 2 | `22` MARCH 1/MARCH 2 | RH 1 | On | 118 |
+| 32 | Western March | `22` MARCH 1/MARCH 2 | RH 2 | On | 138 |
+| 33 | Rumba | `27` RUMBA/BOSANOVA | RH 1 | Off | 123 |
+| 34 | Paso Doble | `27` RUMBA/BOSANOVA | RH 2 | Off | 126 |
+| 35 | Bosanova | `27` RUMBA/BOSANOVA | RH 1 | On | 143 |
+| 36 | Bosanova | `27` RUMBA/BOSANOVA | RH 2 | On | 169 |
+| 37 | Calypso | `28` CALYPSO/BAJON | RH 1 | Off | 126 |
+| 38 | Dixie 1 | `28` CALYPSO/BAJON | RH 2 | Off | 109 |
+| 39 | Bajon | `28` CALYPSO/BAJON | RH 1 | On | 125 |
+| 40 | Dixie 2 | `28` CALYPSO/BAJON | RH 2 | On | 109 |
+| 41 | Cha Cha | `29` CHA CHA/BEGUINE | RH 1 | Off | 121 |
+| 42 | Cha Cha | `29` CHA CHA/BEGUINE | RH 2 | Off | 120 |
+| 43 | Beguine | `29` CHA CHA/BEGUINE | RH 1 | On | 120 |
+| 44 | Beguine | `29` CHA CHA/BEGUINE | RH 2 | On | 120 |
+| 45 | Samba | `30` SAMBA/MAMBO | RH 1 | Off | 122 |
+| 46 | Samba | `30` SAMBA/MAMBO | RH 2 | Off | 132 |
+| 47 | Mambo | `30` SAMBA/MAMBO | RH 1 | On | 122 |
+| 48 | Limbo | `30` SAMBA/MAMBO | RH 2 | On | 133 |
+| 49 | Slow Rock | `31` SL. ROCK/BALLAD | RH 1 | Off | 78 |
+| 50 | Slow Rock | `31` SL. ROCK/BALLAD | RH 2 | Off | 69 |
+| 51 | Ballad | `31` SL. ROCK/BALLAD | RH 1 | On | 78 |
+| 52 | 5/4 | `31` SL. ROCK/BALLAD | RH 2 | On | 168 |
+| 53 | Rock'n'R | `32` ROCKN'R/SHUFFLE | RH 1 | Off | 104 |
+| 54 | Rock'n'R | `32` ROCKN'R/SHUFFLE | RH 2 | Off | 94 |
+| 55 | Shuffle | `32` ROCKN'R/SHUFFLE | RH 1 | On | 105 |
+| 56 | Shuffle | `32` ROCKN'R/SHUFFLE | RH 2 | On | 94 |
+| 57 | Swing | `33` SWING/FOXTROT | RH 1 | Off | 98 |
+| 58 | Swing | `33` SWING/FOXTROT | RH 2 | Off | 97 |
+| 59 | Foxtrot | `33` SWING/FOXTROT | RH 1 | On | 100 |
+| 60 | Foxtrot | `33` SWING/FOXTROT | RH 2 | On | 96 |
+| 61 | Waltz | `34` WALTZ/JAZZ WALTZ | RH 1 | Off | 148 |
+| 62 | Waltz | `34` WALTZ/JAZZ WALTZ | RH 2 | Off | 189 |
+| 63 | Jazz Waltz | `34` WALTZ/JAZZ WALTZ | RH 1 | On | 147 |
+| 64 | Slow Waltz | `34` WALTZ/JAZZ WALTZ | RH 2 | On | 97 |
+
+### Display Abbreviations (RH 2 Factory Bank)
+
+The alphanumeric display shows rhythm names in a short form (about 6 characters), so several RH 2 names are abbreviated. Suggested full names:
+
+| Display | Full name | Reasoning |
+|---------|-----------|-----------|
+| `BEAT/1`, `BEAT/2` | Beat 1, Beat 2 | Slash separates number |
+| `DI SAM` | Disco Samba | `DI` = Disco + `SAM` = Samba |
+| `DI REG` | Disco Reggae | `DI` = Disco + `REG` = Reggae |
+| `DI FUN` | Disco Funk | `DI` = Disco + `FUN` = Funk |
+| `MARSCH` | German March | German word for march |
+| `WESMAR` | Western March | `WES`(tern) + `MAR`(ch) |
+| `PASODOBLE` | Paso Doble | Spanish dance (also written as one word) |
+| `DISCO 4` | Disco 4 | Variant of the L-Disco slot (button 16) |
+| `5/4` | 5/4 | Pattern in 5/4 time |
+
+> **Note:** `DI` may also mean **Double** — i.e. a double-time variant played twice as fast. This fits the fast tempos of `DI REG` (174 BPM) and `DI FUN` (143 BPM) and the naming pattern `DI` + first three letters of the base rhythm (Sam / Reg / Fun). Other readings are "Disco" (Disco Samba / Reggae / Funk) or "Digital". Confirm by comparing each pattern with its base rhythm on the neighbouring buttons.
+
+> **Tip:** The user-programmable rhythms (32 locations) and the cartridge rhythms are not part of this list — they have freely editable names and tempos (see [Programming Standard Tempo](#programming-standard-tempo) and [Editing Rhythm Names](#editing-rhythm-names)).
 
 ---
 
