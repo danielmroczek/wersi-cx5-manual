@@ -117,10 +117,10 @@ The manual covers:
 
 ## Resources
 
-- **Instrument Specifications:** See "Instruments and Sounds" section
+- **Instrument Specifications:** See the "Appendix Instrument List" (names, MIDI notes, remarks — single source of truth)
 - **Control Panel Reference:** See "Cheatsheet – Button Reference" with all 35 buttons documented
 - **MIDI Implementation:** Complete mapping in "M.I.D.I." section including:
-  - MIDI note numbers (36–64) for all percussion sounds
+  - MIDI note numbers (36–64) for all percussion sounds — collected in the "Appendix Instrument List"
   - Clock synchronization modes
   - Program change message formats
 

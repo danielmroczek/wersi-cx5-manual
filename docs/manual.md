@@ -36,35 +36,11 @@ Each of the 128 rhythms can be copied to any storage location in RAM or to the c
 
 ### Instruments and Sounds
 
-| # | Instrument | Type |
-|---|---|---|
-| 1 | Bass drum, Disco | Digital |
-| 2 | Bass drum, Soft | Digital |
-| 3 | Snare drum, Soft | Digital |
-| 4 | Snare drum, Disco | Digital |
-| 5 | Hi-hat closed (stuck) | Digital |
-| 6 | Hi-hat open | Digital |
-| 7 | Conga high | Digital |
-| 8 | Conga low | Digital |
-| 9 | Tom tom high | Digital |
-| 10 | Tom tom low | Digital |
-| 11 | Cymbal ride | Digital |
-| 12 | Cymbal soft | Digital |
-| 13 | Crash cymbal | Digital |
-| 14 | Rimshot | Digital |
-| 15 | Handclap | Digital |
-| 16 | Trill | Digital |
-| 17 | Woodblock | Digital |
-| 18 | Bass drum, Rock | Digital |
-| 19 | Cowbell high | Digital |
-| 20 | Cowbell low | Digital |
-| 21 | Maracas | Digital |
-| 22 | Brush | Digital |
-| 23 | Tambourine | Digital |
-| 24 | "Hey" | Digital |
-| 25 | "Aha" | Digital |
-| 26 | Timpani | Digital |
-| 27 | Synthedrum | Analog |
+The CX 5 provides **27 percussion instruments** — 26 digital sounds plus the analog **Synthedrum** — and the timpani can additionally be played over one octave in Timpani mode.
+
+The names, MIDI note numbers and remarks for all instruments are kept in a single place, so there is one source of truth:
+
+→ [Appendix Instrument List](#appendix-instrument-list)
 
 ### Key Features
 
@@ -138,7 +114,7 @@ Via the stereo jack socket **“Stereo Output”**:
 
 For use with a mixing console, **8 separate channels** are available via RCA connectors.
 
-The 27 instruments of the CX 5 are distributed across the 8 channels:
+The 27 instruments of the CX 5 are distributed across the 8 channels (full instrument list: [Appendix Instrument List](#appendix-instrument-list)):
 
 | Channel | Instruments                                              |
 |---------|----------------------------------------------------------|
@@ -281,7 +257,7 @@ The **“Snare Roll”** function (button **14**) triggers a snare drum roll, ev
 
 ### Sound Effects
 
-In full configuration, the CX 5 offers **6 sound effects**, organized in two groups:
+In full configuration, the CX 5 offers **6 sound effects**, organized in two groups (see also [Appendix Instrument List](#appendix-instrument-list)):
 
 **Group 1:**
 
@@ -714,6 +690,8 @@ Program sensible tunings using **6.8 Programming Pitch Preset**.
 > Pad 7 – CrashCymbal  
 > Pad 8 – SyntheDrum
 
+(The names above refer to the instruments in the [Appendix Instrument List](#appendix-instrument-list).)
+
 ### Pads During Running Rhythm
 
 You can play pads along with a running rhythm:
@@ -758,7 +736,7 @@ Procedure:
    - Example: Press **16** to select preset *2*.  
 4. The display now shows: `Pad 1` and the currently assigned instrument.
 
-Use **“START/STOP” (35)** and **“Intro/Break” (23)** to scroll through all **63 pad-capable instruments**:
+Use **“START/STOP” (35)** and **“Intro/Break” (23)** to scroll through all **63 pad-capable instruments** (names and MIDI notes: [Appendix Instrument List](#appendix-instrument-list)):
 
 - Holding either button: auto-repeat scrolls forward/backwards.  
 - Short taps: step one instrument at a time.
@@ -768,7 +746,7 @@ Use **“START/STOP” (35)** and **“Intro/Break” (23)** to scroll through a
 7. When all pads are assigned, press **“Pad/Midi” (2)** again – LED off to exit.
 
 **Instrument groups (mutual exclusion within a preset)**  
-Within a single pad preset, the following groups cannot sound simultaneously at the same time position (only one from each group can be active):
+Within a single pad preset, the following groups cannot sound simultaneously at the same time position (only one from each group can be active; instrument names: [Appendix Instrument List](#appendix-instrument-list)):
 
 1. Bass Drum Soft – Bass Drum Disco – Bass Drum Rock  
 2. Snare Soft – Snare Rock  
@@ -1047,41 +1025,9 @@ You can record pad-performed percussion directly into the sequencer.
 
 #### MIDI Note Numbers for CX 5 Percussion
 
-The CX 5 sends specific MIDI **note numbers** for each percussion sound. Example mapping (0-based internal numbers shown in the original; external MIDI notes usually start at 36):
+The CX 5 sends a specific MIDI **note number** for each percussion sound; the notes it also accepts are listed with the instruments.
 
-| Note | Instrument |
-|---|---|
-| 36 | Bass drum 1 |
-| 37 | Rimshot |
-| 38 | Snare Rock |
-| 39 | Claps |
-| 40 | Snare Soft |
-| 41 | Tom Low |
-| 42 | Hi-hat closed |
-| 43 | Tom Low |
-| 44 | Hi-hat closed |
-| 45 | Tom High |
-| 46 | Hi-hat open |
-| 47 | Tom High |
-| 48 | Bongo Low |
-| 49 | Cymbal Ride |
-| 50 | Bongo High |
-| 51 | Crash Cymbal Soft |
-| 52 | Crash Cymbal |
-| 53 | Brush |
-| 54 | Woodblock / Claves |
-| 55 | Tambourine |
-| 56 | Cowbell Low |
-| 57 | Maracas |
-| 58 | Cowbell High |
-| 59 | Trill |
-| 60 | Woodblock |
-| 61 | Bass drum Soft |
-| 62 | Bass drum Disco |
-| 63 | "Hey" |
-| 64 | "Aha" |
-
-(Depending on software version, internal note numbering 0–28 is offset to standard MIDI note numbers.)
+The complete mapping (instrument → MIDI note → remarks) is maintained only once, in [Appendix Instrument List](#appendix-instrument-list).
 
 #### Activating “Transmit MIDI Instruments”
 
@@ -1143,7 +1089,7 @@ You can play CX 5 percussion instruments from a **MIDI keyboard** (e.g. WERSI MK
 3. Enable **MIDI Instrument Transmission** on the keyboard (see its manual).  
 4. Set CX 5 **MIDI RX Channel** to the keyboard’s transmit channel (see 9.4.5).
 
-Now you can play CX 5 percussion instruments chromatically from the keyboard, starting at C′ in semitone steps.
+Now you can play CX 5 percussion instruments chromatically from the keyboard, starting at C′ in semitone steps (note numbers per instrument: [Appendix Instrument List](#appendix-instrument-list)).
 
 **Additional reading:**  
 For more detailed information about MIDI, WERSI recommends:
@@ -1337,6 +1283,47 @@ Button numbers run from **top left (1)** to **bottom right (35)**.
 | 33  | SWING / FOXTROT                     | Selects rhythm **Swing** (Group 1) or **Foxtrot** (Group 2); numeric key **15** | - [Selecting and Starting a Rhythm](#selecting-and-starting-a-rhythm) |
 | 34  | WALTZ / JAZZ WALTZ                  | Selects rhythm **Waltz** (Group 1) or **Jazz Waltz** (Group 2); numeric key **16** | - [Selecting and Starting a Rhythm](#selecting-and-starting-a-rhythm) |
 | 35  | START/STOP                          | - **Master transport**: starts/stops rhythms and sequences<br>- In many modes: confirms/ends operations (e.g. exits name edit) | - [Selecting and Starting a Rhythm](#selecting-and-starting-a-rhythm)<br>- [Programming Sequences](#programming-sequences)<br>- [Editing Rhythm Names](#editing-rhythm-names)<br>- [Sync to Tape / Sync from Tape](#sync-to-tape--sync-from-tape) |
+
+---
+
+## Appendix Instrument List
+
+Reference list of all CX 5 percussion instruments: name, MIDI note number and remarks. The table is sorted by MIDI note number (low → high); instruments that answer to more than one note are merged into one row and sorted by their lowest note. Instruments without a note number come last.
+
+> **Reading the table:** a **bold** note is the number the CX 5 itself **transmits** for that instrument (rhythm playback / pads); an unbolded note is only **received**. Within a row the note numbers are listed in ascending order, so the bold one is not always first. Note numbers use the external MIDI numbering (the original manual notes that the internal numbering 0–28 is offset to these values depending on the software version). Where the original manual uses a different name than the instrument list, it is quoted in the *Notes* column.
+
+| Instrument | MIDI note | Notes |
+|---|---|---|
+| Bass drum, Rock | **36** | Listed as “Bass drum 1” in the original manual. |
+| Rimshot | **37** | — |
+| Snare drum, Disco | **38** | Listed as “Snare Rock” in the original manual. |
+| Handclap | **39** | Listed as “Claps” in the original manual. |
+| Snare drum, Soft | **40** | Listed as “Snare Soft” in the original manual. |
+| Tom tom low | **41**, 43 | Both notes trigger the sound; the CX 5 transmits 41. |
+| Hi-hat closed (stuck) | **42**, 44 | Both notes trigger the sound; the CX 5 transmits 42. |
+| Tom tom high | **45**, 47 | Both notes trigger the sound; the CX 5 transmits 45. |
+| Hi-hat open | **46** | — |
+| Conga low | **48** | Listed as “Bongo Low” in the original manual. |
+| Cymbal ride | **49** | — |
+| Conga high | **50** | Listed as “Bongo High” in the original manual. |
+| Synthe Low | **51** | Listed as “Crash Cymbal Soft” in the original manual. Sounds like **Synthe High**, but tuned lower. |
+| Crash cymbal | **52** | — |
+| Brush | **53** | — |
+| Claves | **54**, 60 | Listed as “Wood” in the original manual. Both notes trigger the sound; the CX 5 transmits 54. |
+| Tambourine | **55** | — |
+| Cowbell low | **56** | — |
+| Maracas | **57** | Shares the hi-hat choke group and sounds similar to the hi-hats. |
+| Cowbell high | **58** | — |
+| Trill | **59** | Sounds like a whistle. |
+| Bass drum, Soft | **61** | — |
+| Bass drum, Disco | **62** | — |
+| “Hey” | **63** | — |
+| “Aha” | **64** | — |
+| Synthe High | **65** | Listed as “Synthedrum” in the original manual; analog instrument (the only non-digital sound). |
+| Timpani | 36 | Digital instrument; playable over one octave in [Timpani Mode](#timpani-mode). No note number is given in the original manual; the CX 5 transmits it as *36*. |
+
+
+> **Related sections:** [Instruments and Sounds](#instruments-and-sounds) · [MIDI Note Numbers for CX 5 Percussion](#midi-note-numbers-for-cx-5-percussion) · [Assigning Instruments to Pad Presets](#assigning-instruments-to-pad-presets)
 
 ---
 
