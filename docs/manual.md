@@ -1288,52 +1288,49 @@ Button numbers run from **top left (1)** to **bottom right (35)**.
 
 ## Appendix Instrument List
 
-Reference list of all CX 5 percussion instruments: name, MIDI note number and remarks. The table is sorted by MIDI note number (low → high); instruments that answer to more than one note are merged into one row and sorted by their lowest note. Instruments without a note number come last.
+Reference list of all CX 5 percussion instruments, sorted by MIDI note number (low → high).
 
-> **Reading the table:** a **bold** note is the number the CX 5 itself **transmits** for that instrument (rhythm playback / pads); an unbolded note is only **received**. Within a row the note numbers are listed in ascending order, so the bold one is not always first. Note numbers use the external MIDI numbering (the original manual notes that the internal numbering 0–28 is offset to these values depending on the software version). Where the original manual uses a different name than the instrument list, it is quoted in the *Notes* column.
+> **Bold** = the note the CX 5 transmits; a plain number is received only. Note names assume **MIDI 60 = C3** (so 36 = C1, 65 = F3).
 
 | Instrument | MIDI note | Notes |
 |---|---|---|
-| Bass drum, Rock | **36** | Listed as “Bass drum 1” in the original manual. |
-| Rimshot | **37** | — |
-| Snare drum, Disco | **38** | Listed as “Snare Rock” in the original manual. |
-| Handclap | **39** | Listed as “Claps” in the original manual. |
-| Snare drum, Soft | **40** | Listed as “Snare Soft” in the original manual. |
-| Tom tom low | **41**, 43 | Both notes trigger the sound; the CX 5 transmits 41. |
-| Hi-hat closed (stuck) | **42**, 44 | Both notes trigger the sound; the CX 5 transmits 42. |
-| Tom tom high | **45**, 47 | Both notes trigger the sound; the CX 5 transmits 45. |
-| Hi-hat open | **46** | — |
-| Conga low | **48** | Listed as “Bongo Low” in the original manual. |
-| Cymbal ride | **49** | — |
-| Conga high | **50** | Listed as “Bongo High” in the original manual. |
-| Synthe Low | **51** | Listed as “Crash Cymbal Soft” in the original manual. Sounds like **Synthe High**, but tuned lower. |
-| Crash cymbal | **52** | — |
-| Brush | **53** | — |
-| Claves | **54**, 60 | Listed as “Wood” in the original manual. Both notes trigger the sound; the CX 5 transmits 54. |
-| Tambourine | **55** | — |
-| Cowbell low | **56** | — |
-| Maracas | **57** | Shares the hi-hat choke group and sounds similar to the hi-hats. |
-| Cowbell high | **58** | — |
-| Trill | **59** | Sounds like a whistle. |
-| Bass drum, Soft | **61** | — |
-| Bass drum, Disco | **62** | — |
-| “Hey” | **63** | — |
-| “Aha” | **64** | — |
-| Synthe High | **65** | Listed as “Synthedrum” in the original manual; analog instrument (the only non-digital sound). |
-| Timpani | 36 | Digital instrument; playable over one octave in [Timpani Mode](#timpani-mode). No note number is given in the original manual; the CX 5 transmits it as *36*. |
-
+| Bass drum, Rock | **36** (C1) | Listed as “Bass drum 1” in the original manual. |
+| Rimshot | **37** (C♯1) | — |
+| Snare drum, Disco | **38** (D1) | Listed as “Snare Rock” in the original manual. |
+| Handclap | **39** (D♯1) | Listed as “Claps” in the original manual. |
+| Snare drum, Soft | **40** (E1) | Listed as “Snare Soft” in the original manual. |
+| Tom tom low | **41** (F1), 43 (G1) | Both notes trigger the sound; the CX 5 transmits 41. |
+| Hi-hat closed (stuck) | **42** (F♯1), 44 (G♯1) | Both notes trigger the sound; the CX 5 transmits 42. |
+| Tom tom high | **45** (A1), 47 (B1) | Both notes trigger the sound; the CX 5 transmits 45. |
+| Hi-hat open | **46** (A♯1) | — |
+| Conga low | **48** (C2) | Listed as “Bongo Low” in the original manual. |
+| Cymbal ride | **49** (C♯2) | — |
+| Conga high | **50** (D2) | Listed as “Bongo High” in the original manual. |
+| Synthe Low | **51** (D♯2) | Listed as “Crash Cymbal Soft” in the original manual. Sounds like **Synthe High**, but tuned lower. |
+| Crash cymbal | **52** (E2) | — |
+| Brush | **53** (F2) | — |
+| Claves | **54** (F♯2), 60 (C3) | Listed as “Wood” in the original manual. Both notes trigger the sound; the CX 5 transmits 54. |
+| Tambourine | **55** (G2) | — |
+| Cowbell low | **56** (G♯2) | — |
+| Maracas | **57** (A2) | Shares the hi-hat choke group and sounds similar to the hi-hats. |
+| Cowbell high | **58** (A♯2) | — |
+| Trill | **59** (B2) | Sounds like a whistle. |
+| Bass drum, Soft | **61** (C♯3) | — |
+| Bass drum, Disco | **62** (D3) | — |
+| “Hey” | **63** (D♯3) | — |
+| “Aha” | **64** (E3) | — |
+| Synthe High | **65** (F3) | Listed as “Synthedrum” in the original manual; analog instrument (the only non-digital sound). |
+| Timpani | 36 (C1) | Not playable from an external MIDI instrument. Playable over one octave in [Timpani Mode](#timpani-mode); the CX 5 transmits it as *36* (C1). |
 
 > **Related sections:** [Instruments and Sounds](#instruments-and-sounds) · [MIDI Note Numbers for CX 5 Percussion](#midi-note-numbers-for-cx-5-percussion) · [Assigning Instruments to Pad Presets](#assigning-instruments-to-pad-presets)
 
 ---
 
-## Appendix Rhythm List and Default Tempos
+## Appendix Rhythm List
 
-Complete list of the **64 factory rhythms**: each of the 32 printed rhythm names exists in two versions — **RH 1** (Fixed Rhythm Group 1, button **5**) and **RH 2** (Fixed Rhythm Group 2, button **6**). That gives **4 rhythms per rhythm button** (2 printed names × 2 versions).
+Reference list of the CX 5 factory rhythms.
 
-> **How to call up an entry:** press the rhythm button listed in *Button*, then select the version with **F-RH 1 (5)** or **F-RH 2 (6)**. The name appears on the display. The *SELECTOR* column tells you whether **SELECTOR (4)** must be lit: **Off** = not lit (upper printed name), **On** = lit (lower printed name).
->
-> **Default tempo:** "Tempomat" (button **9**) recalls the stored ideal tempo for each rhythm. Play each rhythm with Tempomat on and read the BPM value from the display, then write it into the empty *Default tempo* cell. This builds a quick reference of the factory tempo for every rhythm.
+> **Default tempo:** *Tempomat* (button **9**) recalls the ideal tempo stored for each rhythm; the *Default tempo* column lists that value.
 
 | # | Rhythm | Button | Version | SELECTOR (4) | Default tempo (BPM) |
 |---|--------|--------|---------|--------------|---------------------|
